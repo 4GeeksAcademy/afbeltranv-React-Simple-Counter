@@ -4,19 +4,19 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Home = () => {
+const Home = (props) => {
 	
 	return (
-		<div className="container">
+		<div className="container-fluid">
 			<div>
 				<i className="far fa-clock"></i>
 			</div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
+			<div>{props.seis}</div>
+			<div>{props.cinco}</div>
+			<div>{props.cuatro}</div>
+			<div>{props.tres}</div>
+			<div>{props.dos}</div>
+			<div>{props.uno}</div>
 		</div>
 	);
 };
