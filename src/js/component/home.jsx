@@ -7,16 +7,18 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = (props) => {
 	
 	return (
-		<div className="container-fluid">
-			<div>
-				<i className="far fa-clock"></i>
+		<div className="container">
+			<div className="row">
+				<div className="col">
+					<i className="far fa-clock"></i>
+				</div>
+				<div className="col">{props.seis}</div>
+				<div className="col">{props.cinco}</div>
+				<div className="col">{props.cuatro}</div>
+				<div className="col">{props.tres}</div>
+				<div className="col">{props.dos}</div>
+				<div className="col">{props.uno}</div>
 			</div>
-			<div>{props.seis}</div>
-			<div>{props.cinco}</div>
-			<div>{props.cuatro}</div>
-			<div>{props.tres}</div>
-			<div>{props.dos}</div>
-			<div>{props.uno}</div>
 		</div>
 	);
 };
