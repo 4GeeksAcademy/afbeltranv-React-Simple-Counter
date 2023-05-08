@@ -48,7 +48,7 @@ setInterval(function(){
         megaSegundos=0;
         gigaSegundos=0;        
     }
-    console.log(segundos, decaSegundos, hectoSegundos, kiloSegundos, megaSegundos, gigaSegundos);
-    ReactDOM.render(<Home uno={segundos} dos={decaSegundos} tres={hectoSegundos} cuatro={kiloSegundos} cinco={megaSegundos} seis={gigaSegundos}/>, document.querySelector("#app"));}, 1);
+    // console.log(segundos, decaSegundos, hectoSegundos, kiloSegundos, megaSegundos, gigaSegundos);
+    ReactDOM.render(<Home uno={segundos} dos={decaSegundos} tres={hectoSegundos} cuatro={kiloSegundos} cinco={megaSegundos} seis={gigaSegundos}/>, document.querySelector("#app"));}, 1000);
 //render your react application
 
